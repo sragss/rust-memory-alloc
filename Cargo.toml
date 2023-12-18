@@ -1,0 +1,15 @@
+[package]
+name = "rust-memory-alloc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-curve25519 = "0.4.0"
+ark-std = "0.4.0"
+rand = "0.8.5"
+rayon = "1.8.0"
+tracing = "0.1.40"
+tracing-chrome = "0.7.1"
+tracing-subscriber = "0.3.18"
